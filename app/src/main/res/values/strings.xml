@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">工具盒子</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">机智的徐苟山</string>
+    <string name="nav_header_subtitle">1419982188@qq.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_about">关于</string>
+
+    <string name="home_second">Home Second</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="author">作者：机智的徐苟山</string>
+    <string name="version">版本：</string>
+    <string name="email">邮箱：1419982188@qq.com</string>
+    <string name="link">链接：</string>
+</resources>
