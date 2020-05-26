@@ -11,10 +11,17 @@
     <string name="menu_gallery">Gallery</string>
     <string name="menu_about">关于</string>
 
-    <string name="home_second">Home Second</string>
-    <string name="title_activity_home">HomeActivity</string>
-    <string name="author">作者：机智的徐苟山</string>
+    <string name="author">作者：</string>
     <string name="version">版本：</string>
-    <string name="email">邮箱：1419982188@qq.com</string>
+    <string name="qq">QQ：</string>
+    <string name="email">邮箱：</string>
+    <string name="github_link">Github：</string>
     <string name="link">链接：</string>
+
+    <string name="author_info">机智的徐苟山</string>
+    <string name="qq_info">1419982188</string>
+    <string name="email_info">1419982188@qq.com</string>
+    <string name="github_link_info">https://github.com/joyzeus</string>
+    <string name="link_info">https://github.com/joyzeus/tools</string>
+
 </resources>

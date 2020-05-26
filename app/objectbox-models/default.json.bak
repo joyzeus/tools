@@ -17,9 +17,7 @@
         {
           "id": "2:8012327973256100571",
           "name": "account",
-          "indexId": "1:4596070850627130085",
-          "type": 9,
-          "flags": 2080
+          "type": 9
         },
         {
           "id": "3:3849825696299795155",
@@ -34,16 +32,47 @@
         }
       ],
       "relations": []
+    },
+    {
+      "id": "2:2238102101364343365",
+      "lastPropertyId": "4:2173960503946664070",
+      "name": "ShadowSkyCheckInLogEntity",
+      "properties": [
+        {
+          "id": "1:5358936993086578096",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:8500709696984697873",
+          "name": "account",
+          "type": 9
+        },
+        {
+          "id": "3:8450795860484444065",
+          "name": "checkInTime",
+          "type": 10
+        },
+        {
+          "id": "4:2173960503946664070",
+          "name": "checkInResult",
+          "type": 9
+        }
+      ],
+      "relations": []
     }
   ],
-  "lastEntityId": "1:7170048864457518566",
+  "lastEntityId": "2:2238102101364343365",
   "lastIndexId": "1:4596070850627130085",
   "lastRelationId": "0:0",
   "lastSequenceId": "0:0",
   "modelVersion": 5,
   "modelVersionParserMinimum": 5,
   "retiredEntityUids": [],
-  "retiredIndexUids": [],
+  "retiredIndexUids": [
+    4596070850627130085
+  ],
   "retiredPropertyUids": [],
   "retiredRelationUids": [],
   "version": 1
