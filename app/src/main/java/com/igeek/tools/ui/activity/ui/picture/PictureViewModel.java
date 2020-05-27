@@ -1,16 +1,16 @@
-package com.igeek.tools.ui.activity.ui.home;
+package com.igeek.tools.ui.activity.ui.picture;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class HomeViewModel extends ViewModel {
+public class PictureViewModel extends ViewModel {
 
     private MutableLiveData<String> mText;
 
-    public HomeViewModel() {
+    public PictureViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is home fragment");
+        mText.setValue("This is picture fragment");
     }
 
     public LiveData<String> getText() {

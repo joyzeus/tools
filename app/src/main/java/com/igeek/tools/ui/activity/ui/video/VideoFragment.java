@@ -1,4 +1,4 @@
-package com.igeek.tools.ui.activity.ui.home;
+package com.igeek.tools.ui.activity.ui.video;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -14,16 +14,16 @@ import androidx.lifecycle.ViewModelProviders;
 
 import com.igeek.tools.R;
 
-public class HomeFragment extends Fragment {
+public class VideoFragment extends Fragment {
 
-    private HomeViewModel homeViewModel;
+    private VideoViewModel homeViewModel;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
         homeViewModel =
-                ViewModelProviders.of(this).get(HomeViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_home, container, false);
-        final TextView textView = root.findViewById(R.id.text_home);
+                ViewModelProviders.of(this).get(VideoViewModel.class);
+        View root = inflater.inflate(R.layout.fragment_video, container, false);
+        final TextView textView = root.findViewById(R.id.text_video);
         homeViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {

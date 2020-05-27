@@ -27,13 +27,7 @@ public class AboutFragment extends Fragment implements View.OnClickListener {
         Context context = container.getContext();
 
         final TextView textView = root.findViewById(R.id.text_version);
-        textView.setText(getResources().getString(R.string.version) + BuildConfig.VERSION_NAME);
-//        aboutViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
-//            @Override
-//            public void onChanged(@Nullable String s) {
-//                textView.setText(s);
-//            }
-//        });
+        textView.setText(BuildConfig.VERSION_NAME);
 
         root.findViewById(R.id.text_qq).setOnClickListener(this);
         root.findViewById(R.id.text_email).setOnClickListener(this);
